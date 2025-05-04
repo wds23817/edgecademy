@@ -21,13 +21,13 @@ It provides a full-stack CSV upload solution:
 
 Install dependencies:
 
-````bash
+```bash
 npm install
 # or
 yarn install
 
 
-```Start MongoDB using Docker:
+Start MongoDB using Docker:
 docker run -d \
   --name mongodb \
   -p 27017:27017 \
@@ -36,12 +36,12 @@ docker run -d \
   mongo
 
 
-```Create a .env.local file in the project root:
+Create a .env.local file in the project root:
 MONGODB_URI=mongodb://admin:secret@localhost:27017/edgecademydb?authSource=admin
 MONGODB_DB=edgecademydb
 
 
-```Start the development server:
+Start the development server:
 npm run dev
 # or
 yarn dev
@@ -49,6 +49,6 @@ yarn dev
 pnpm dev
 # or
 bun dev
-````
+```
 
 Open http://localhost:3000 in your browser to see the app.
