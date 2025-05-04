@@ -25,7 +25,7 @@ Install dependencies:
 npm install
 # or
 yarn install
-```
+
 
 ```Start MongoDB using Docker:
 docker run -d \
@@ -34,12 +34,12 @@ docker run -d \
   -e MONGO_INITDB_ROOT_USERNAME=admin \
   -e MONGO_INITDB_ROOT_PASSWORD=secret \
   mongo
-```
+
 
 ```Create a .env.local file in the project root:
 MONGODB_URI=mongodb://admin:secret@localhost:27017/edgecademydb?authSource=admin
 MONGODB_DB=edgecademydb
-```
+
 
 ```Start the development server:
 npm run dev
